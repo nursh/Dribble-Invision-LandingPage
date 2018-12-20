@@ -1,2 +1,11 @@
 @import "abstracts/variables";
+
 @import "base/base";
+@import "base/typography";
+
+@import "components/logo";
+@import "components/button";
+@import "components/main";
+@import "components/navigation";
+
+@import "pages/home";

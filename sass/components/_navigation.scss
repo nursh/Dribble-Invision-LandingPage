@@ -1,0 +1,9 @@
+.navigation {
+  background-image: linear-gradient(
+      to right,
+      rgba($dark-gradient-color, 0.9),
+      rgba($light-gradient-color, 0.7)
+    ),
+    url(../img/nav-img.jpg);
+  background-size: cover;
+}

@@ -1,0 +1,15 @@
+.btn {
+  border: none;
+  border-radius: 0.2rem;
+  background: linear-gradient(
+    to right,
+    $dark-gradient-color,
+    $light-gradient-color
+  );
+  cursor: pointer;
+  color: white;
+  padding: 1.8rem 5rem;
+  font-size: 1.5rem;
+  display: block;
+  box-shadow: -.5rem 6.9rem 24.6rem -1.3rem rgba(0,0,0,0.75);
+}

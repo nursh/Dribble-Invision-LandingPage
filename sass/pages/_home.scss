@@ -1,0 +1,6 @@
+.content {
+  display: grid;
+  grid-template-columns: minmax(min-content, 50rem) 1fr;
+  width: 120rem;
+  height: 90vh;
+}
