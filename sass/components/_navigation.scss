@@ -7,3 +7,38 @@
     url(../img/nav-img.jpg);
   background-size: cover;
 }
+
+.nav__list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-column-gap: 2rem;
+  padding: 2rem;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  text-align: center;
+  color: $background-color;
+  cursor: pointer;
+}
+
+.nav__item {
+  transition: all .2s;
+
+  &:hover {
+    transform: scale(1.4);
+    color: $off-white-color;
+  }
+}
+
+.signup {
+  padding: 1rem 1rem;
+  background-color: $signup-color;
+  color: $off-white-color;
+  border-radius: .2rem;
+
+  &:hover {
+    transform: none;
+    background-color: $primary-color;
+  }
+}
