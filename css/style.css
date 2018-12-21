@@ -36,13 +36,17 @@ body {
   font-size: 1.5rem;
   color: #adadad; }
 
-.logo__icon {
-  height: 3rem;
-  width: 3rem; }
-
-.logo__text {
-  font-size: 2rem;
-  font-weight: 500; }
+.logo {
+  display: flex;
+  cursor: pointer; }
+  .logo__icon {
+    height: 3rem;
+    width: 3rem; }
+  .logo__text {
+    font-size: 2rem;
+    font-weight: 500;
+    align-self: center;
+    color: #7a5bbe; }
 
 .btn {
   border: none;

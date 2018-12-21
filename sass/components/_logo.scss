@@ -1,4 +1,6 @@
 .logo {
+  display: flex;
+  cursor: pointer;
 
   &__icon {
     height: 3rem;
@@ -8,5 +10,7 @@
   &__text {
     font-size: 2rem;
     font-weight: 500;
+    align-self: center;
+    color: $primary-color;
   }
 }
